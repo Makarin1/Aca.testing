@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 5px;
+}
+#header {
+  display: block;
+  width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  background: #ff0000;
+  border: 1px solid#999999;
+  border-radius: 20px;
+  padding: 20px;
+  font: bold 25px verdana sans-serif;
+  box-shadow: #ff0000 10px 10px 10px;
+  animation: myanimation 1s ease-in-out 0s infinite normal none;
+}
+@keyframes myanimation {
+  0% {
+    background: #ffffff;
+  }
+  50% {
+    background: #ff0000;
+  }
+  100% {
+    background: #ffffff;
+  }
+}
+#slika {
+  align-self: stretch;
+  align-self: center;
+}
+#nav {
+  background: -webkit-linear-gradient(top, #000000, #fff000, #666666);
+  border: 1px solid#999999;
+  padding: 18px;
+  font: bold 20px verdana sans-serif;
+  text-shadow: #c0c0c0 3px 3px 3px;
+}
+aside {
+  text-align: center;
+}
+footer {
+  text-align: right;
+  font: italic 14px verdana, sans-serif;
+  text-shadow: #c0c0c0 3px 3px 3px;
+}
+#section {
+  background: #c0c0c0;
+}
+button {
+  border: none;
+  color: #ffffff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #4caf50;
+}
+button:hover {
+  background-color: #4caf50;
+  color: #ffffff;
+}
